@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Proyecto de Desarrollo Web</title>
+    <link rel="stylesheet" href="contact.css"> <!-- Aquí puedes agregar tus estilos CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="icons">
+        <div class="social-icons">
+            <a href="https://github.com/CamiloCuspian"  target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/juan-camilo-cuspian/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" title="Twitter"><i class=""></i></a>
+        </div>
+    </section>
+    <section class="contact-form-section">
+        <h2>Contáctame para un Proyecto de Desarrollo Web</h2>
+        <p>Si tienes un proyecto interesante en mente o necesitas más información, ¡no dudes en contactarme!</p><br>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="responseMessage" class="response-message" style="display:none;"></div>
+    </section>
+
+    <script src="app.js"></script> <!-- Incluye tu archivo JavaScript -->
+</body>
+</html>
