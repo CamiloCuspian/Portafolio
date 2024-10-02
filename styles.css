@@ -20,12 +20,10 @@ body{
   flex-direction: column;
   width: 100vw;
   background-color: var(---bgr);
-  
 }
 
 .logo{
-  width: 98%;
-  height: 60px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +44,7 @@ body{
 }
 
 .banner {
-  margin-top: 50px;
+  margin-top: 80px;
   max-width: 100%;
   height: auto;
   overflow: hidden;
@@ -400,6 +398,11 @@ body{
   width: 500px;
   padding: 12px;
   
+}
+body {
+  font-family: Arial, sans-serif; 
+  background-color: #f4f4f4;
+  margin: 20px;
 }
 
 .link-list {
