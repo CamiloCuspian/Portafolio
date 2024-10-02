@@ -1,14 +1,15 @@
+const likeButtons = document.querySelectorAll('.likeButton');
 
-const likeButton = document.getElementById('likeButton');
-
-likeButton.addEventListener('click', function() {
-    this.classList.toggle('liked');
-    
-    if (this.classList.contains('liked')) {
-        this.querySelector('img').src = '/img/avif/heart-red.avif';
-    } else {
-        this.querySelector('img').src = '/img/avif/heart.avif';
-    }
+likeButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        this.classList.toggle('liked');
+        
+        if (this.classList.contains('liked')) {
+            this.querySelector('img').src = '/img/avif/heart-red.avif';
+        } else {
+            this.querySelector('img').src = '/img/avif/heart.avif';
+        }
+    });
 });
 
 $(document).ready(function() {
