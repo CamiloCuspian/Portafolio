@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.about{
+    font-family: cursive;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+h1 {
+    color: #5BB5D9;
+}
+.imagen {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+.signature {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #5BB5D9;
+}
