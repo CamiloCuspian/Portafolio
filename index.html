@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/styles.css"> <!-- Cambié la ruta -->
+    <title>Feed-JuanKa</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Incluye jQuery -->
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <a href="/Index.html" target="_blank" ><img src="./img/avif/logo-camilo.avif" alt="logo-de-juanka"></a>
+            <img class="tema" src="./img/avif/icono-tema.avif" alt="icono-tema-dia">
+        </div>
+    </header>
+
+    
+    <!-- seccion Banner -->
+    <section class="banner">
+        <div class="img-banner">
+            <img src="./img/avif/banner.avif" alt="Banner image">
+        </div>    
+        <div class="profile-container">
+            <img src="./img/avif/perfil.avif" alt="Imagen de perfil de Juan Camilo Cuspian" class="profile-pic">
+            <a href="https://github.com/CamiloCuspian" target="_blank" class="follow-btn" aria-label="Sígueme en GitHub">Follow</a>
+        </div>
+    </section>
+
+    <section class="wrap-presentacion">
+        <div class="presentacion">
+            <h1>Juan Camilo</h1>
+            <small>Front-End Developer</small>
+            <p>¡Impulsa tu presencia en línea con una página web que realmente funcione!</p>
+        </div>
+    </section>
+
+    <!-- nav -->
+    <nav class="wrap-nav">
+        <ul class="nav">
+            <li>
+                <a href="https://wa.me/qr/HKZDRAW62Q6KL1" target="_blank"><img width="20" src="./img/avif/job.avif" alt="Disponible">Disponible</a>
+                <a href="/Index.html" target="_blank"><img width="20" src="./img/avif/link.avif" alt="Proyectos">Proyectos</a>
+                <a href="https://www.linkedin.com/in/juan-camilo-cuspian/" target="_blank"><img width="20" src="./img/avif/calendar.avif" alt="Se unió en 2024">Se Unió en 2024</a>
+                <a href="/Index.html" target="_blank"><img width="20" src="./img/avif/office.avif" alt="Skills">Skills</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- box -->
+    <div class="subscription-box">
+        <p>Deseas que te contacte? dejame tu correo!</p>
+        <form class="subscription-form">
+            <input type="email" placeholder="Dirección de correo electrónico" required>
+            <button type="submit">¡Suscribir!</button>
+        </form>
+        <small>No es spam. Cancela tu suscripción en cualquier momento.</small>
+    </div>
+
+    <!-- barra de navegacion -->
+    <nav class="wrap-brr-nav">
+        <ul class="brr-nav">
+            <li><a href="#" id="feedLink" class="active" target="_blank">Feed</a></li>
+            <li><a href="#" id="aboutLink" target="_blank">Sobre Mi</a></li>
+            <li><a href="#" id="contactLink" target="_blank">Contacto</a></li>
+            <!-- <li><a href="#" id="guestbookLink"></a></li> -->
+        </ul>
+    </nav>
+    
+
+    <!-- Aquí se cargará el contenido dinámico -->
+    <div id="dynamic-content">
+        <!-- Contenido inicial que puede cambiar dinámicamente -->
+        <section class="wrap-post">
+            <div class="post">
+                <div class="post-header">
+                    <img src="./img/avif/logo-camilo.avif" alt="Avatar" class="avatar">
+                    <div class="user-info">
+                        <span class="username">Cuspián</span>
+                        <span class="post-date">26 de septiembre de 2024</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <strong>¡Hola Mundo!</strong>
+                    <p>Bienvenido a mi espacio creativo, donde comparto mis proyectos y aprendizajes en el mundo del desarrollo web. Si deseas seguir mis avances, no dudes en hacerlo a través de mi perfil de GitHub, ¡solo haz clic en el botón "Seguir" arriba!</p>
+    
+                </div>
+                <img src="./img/avif/Snapchat.avif" alt="Imagen del post" class="post-image">
+                <div class="post-actions">
+                    <button id="likeButton" class="action-button">
+                        <img src="./img/avif/heart.avif" alt="Like">
+                    </button>
+                    <button class="action-button">
+                        <a href="https://www.linkedin.com/in/juan-camilo-cuspian/" target="_blank"><img src="./img/avif/link.avif" alt="Comment"></a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="wrap-post">
+            <div class="post">
+                <div class="post-header">
+                    <img src="./img/avif/logo-camilo.avif" alt="Avatar" class="avatar">
+                    <div class="user-info">
+                        <span class="username">Cuspián</span>
+                        <span class="post-date">26 de septiembre de 2024</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <strong>¡Hey!</strong>
+                    <p>Te presento Alura Play, una aplicación web desarrollada con HTML y CSS que simula la experiencia de YouTube. Este proyecto permite explorar contenido multimedia de manera intuitiva y atractiva, destacando mis habilidades en diseño web y desarrollo front-end. ¡Gracias Alura Latam!</p> <br>
+                    <h4>😉 Por aca te dejo el repositorio de github y la pagina en vercel</h4> <br>
+                    <ul class="link-list">
+                        <li><a href="https://github.com/CamiloCuspian/challenge-alura-play" target="_blank">GitHub</a></li>
+                        <li><a href="https://challenge-alura-play.vercel.app/" target="_blank">Vercel</a></li>
+                    </ul>
+                </div>
+                <img src="./img/avif/alura.avif" alt="Imagen del post" class="post-image">
+                <div class="post-actions">
+                    <button id="likeButton" class="action-button">
+                        <img src="./img/avif/heart.avif" alt="Like">
+                    </button>
+                    <button class="action-button">
+                        <a href="https://www.linkedin.com/in/juan-camilo-cuspian/" target="_blank" aria-label="Perfil de LinkedIn">
+                            <img src="./img/avif/link.avif" alt="Enlace a mi perfil de LinkedIn">
+                        </a>
+                        
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
