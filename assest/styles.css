@@ -22,7 +22,7 @@ body{
   background-color: var(---bgr);
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 10px;
 }
 
 .logo{
@@ -34,7 +34,7 @@ body{
   position: fixed;
   background-color: rgba(249, 250, 251, 0.65);
   top: 0;
-  padding: 10px; 
+  padding: 15px; 
 }
 
 .logo a img{
@@ -48,7 +48,7 @@ body{
 }
 
 .banner {
-  margin-top: 50px;
+  margin-top: 60px;
   max-width: 250vw;
   height: auto;
   overflow: hidden;
