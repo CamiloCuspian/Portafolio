@@ -5,7 +5,7 @@
     ---enlaces:#5BB5D9;
     ---ltr:#515F80;
 
-    ---font-family: cursive;
+    ---font-family: ;
 }
 
 *{
@@ -20,10 +20,14 @@ body{
   flex-direction: column;
   width: 100vw;
   background-color: var(---bgr);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .logo{
-  width: 100%;
+  width: 99%;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +38,7 @@ body{
 }
 
 .logo a img{
-  max-width: 100px;
+  max-width: 10vw;
 }
 
 .tema{
@@ -44,8 +48,8 @@ body{
 }
 
 .banner {
-  margin-top: 80px;
-  max-width: 100%;
+  margin-top: 50px;
+  max-width: 250vw;
   height: auto;
   overflow: hidden;
   display: flex;
@@ -62,11 +66,13 @@ body{
 }
 
 .profile-container {
+  max-width: 100%;
   margin-top: -5rem;
   bottom: 10px;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  gap: 4rem;
 }
 
 .profile-pic {
@@ -75,7 +81,6 @@ body{
   border-radius: 50%;
   border: 4px solid black;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  margin-left: 150px;
 }
 
 .follow-btn {
@@ -87,7 +92,6 @@ body{
   font-weight: bold;
   font-size: 14px;
   transition: background-color 0.3s;
-  margin-right: 150px;
 }
 
 .follow-btn:hover {
@@ -101,7 +105,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 20px;
+    box-sizing: border-box;
 }
 .presentacion{
     font-family: var(---font-family);
@@ -203,7 +207,7 @@ body{
 
 .skills-wrap{
     position: absolute;
-    width: 60px;
+    max-width: 60px;
     height: 60px;
     color: bisque;
     display: flex;
@@ -225,7 +229,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     background-color: var(---color-bgr-);
     margin-top: 1.5rem;
     color: var(---color-fuentes);
@@ -252,7 +256,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    max-width: 100%;
 }
 
 .wrap-nav ul li {
@@ -342,11 +346,13 @@ body{
 .subscription-box {
     text-align: center;
     font-family: Arial, sans-serif;
+    max-width: 100%;
 }
 
 .subscription-box p {
     font-size: 18px;
     margin-bottom: 10px;
+    
 }
 
 .subscription-form {
@@ -390,6 +396,7 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 5px;
+  max-width: 100%;
 }
 .post {
   background-color: white;
@@ -399,12 +406,6 @@ body{
   padding: 12px;
   
 }
-body {
-  font-family: Arial, sans-serif; 
-  background-color: #f4f4f4;
-  margin: 20px;
-}
-
 .link-list {
   list-style-type: none; 
   padding: 0;
