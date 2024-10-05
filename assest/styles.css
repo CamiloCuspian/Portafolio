@@ -15,18 +15,11 @@
 }
 
 body{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100vw;
   background-color: var(---bgr);
-  box-sizing: border-box;
-  padding: 0;
-  margin: 10px;
 }
 
 .logo{
-  width: 99%;
+  width: 100%;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -34,7 +27,6 @@ body{
   position: fixed;
   background-color: rgba(249, 250, 251, 0.65);
   top: 0;
-  padding: 15px; 
 }
 
 .logo a img{
@@ -49,7 +41,7 @@ body{
 
 .banner {
   margin-top: 60px;
-  max-width: 250vw;
+  max-width: 350vw;
   height: auto;
   overflow: hidden;
   display: flex;
@@ -67,15 +59,21 @@ body{
 
 .profile-container {
   max-width: 100%;
-  margin-top: -5rem;
   bottom: 10px;
   display: flex;
+  margin-top: -5rem;
   justify-content: space-around;
+  
+}
+.perfil{
   align-items: flex-end;
-  gap: 4rem;
+  max-width: 100%;
+  display: flex;
+  
 }
 
 .profile-pic {
+  margin-right: 4.5rem;
   width: 134px;
   height: 134px;
   border-radius: 50%;
@@ -84,6 +82,7 @@ body{
 }
 
 .follow-btn {
+  margin-left: 4.5rem;
   background-color: var(---enlaces);
   color: white;
   padding: 8px 16px;
@@ -92,6 +91,8 @@ body{
   font-weight: bold;
   font-size: 14px;
   transition: background-color 0.3s;
+  height: 40px;
+  max-width: 100px;
 }
 
 .follow-btn:hover {
