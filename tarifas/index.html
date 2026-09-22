@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tarifas para agencias · Camilo Cuspián SEO</title>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="description" content="Tarifas en marca blanca para agencias: SEO técnico, SEO para IA e implementación en código para clínicas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#F4F6F4; --surface:#FFFFFF; --ink:#15201E; --muted:#56655F; --line:#D9E1DD;
+  --accent:#0B6E5F; --accent-ink:#FFFFFF; --accent-soft:rgba(11,110,95,.12); --tint:#E7EFEC;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0E1513; --surface:#151F1C; --ink:#E6EDEA; --muted:#98A9A3; --line:#26342F;
+    --accent:#4FC4AA; --accent-ink:#0E1513; --accent-soft:rgba(79,196,170,.16); --tint:#1B2824;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0E1513; --surface:#151F1C; --ink:#E6EDEA; --muted:#98A9A3; --line:#26342F;
+  --accent:#4FC4AA; --accent-ink:#0E1513; --accent-soft:rgba(79,196,170,.16); --tint:#1B2824;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font:400 17px/1.6 var(--body);margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
+a{color:var(--accent)}
+a:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+h1,h2,h3,h4{font-family:var(--display);line-height:1.12;text-wrap:balance;margin:0}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0}
+
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding-block:22px;border-bottom:1px solid var(--line)}
+.bar .name{font:700 17px/1 var(--display)}
+.bar nav{display:flex;gap:18px;flex-wrap:wrap;font-size:15px}
+.bar nav a{color:var(--muted);text-decoration:none}
+.bar nav a:hover{color:var(--ink)}
+
+.hero{padding-block:52px 32px;max-width:760px}
+.hero h1{font-size:clamp(32px,4.8vw,52px);font-weight:700;letter-spacing:-.02em;margin-top:10px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p.lead{font-size:19px;color:var(--muted);max-width:60ch;margin:18px 0 0}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.chip{font:500 12px/1 var(--mono);letter-spacing:.04em;color:var(--muted);border:1px solid var(--line);background:var(--surface);padding:8px 12px;border-radius:999px}
+
+section{padding-block:36px}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.sec-head h2{font-size:clamp(26px,3.4vw,34px);font-weight:700;letter-spacing:-.01em}
+.sec-head p{color:var(--muted);margin:0;max-width:54ch;font-size:16px}
+
+/* plans */
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
+.plan{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column;gap:14px}
+.plan.featured{border:2px solid var(--accent);box-shadow:0 0 0 6px var(--accent-soft)}
+.plan .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.plan h3{font-size:21px;font-weight:700}
+.tag{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);padding:4px 8px;border-radius:999px;white-space:nowrap}
+.price{font:500 42px/1 var(--mono);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.price small{font:400 14px/1 var(--body);color:var(--muted);letter-spacing:0;margin-left:4px}
+.for{margin:0;color:var(--muted);font-size:15px}
+.plan ul{margin:0;padding:14px 0 0;border-top:1px solid var(--line);list-style:none;display:grid;gap:8px;font-size:15.5px}
+.plan li{padding-left:22px;position:relative}
+.plan li::before{content:"";position:absolute;left:2px;top:.55em;width:10px;height:6px;border-left:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg)}
+.plan li b{font-weight:600}
+.resale{margin-top:auto;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-size:14px;color:var(--muted)}
+.resale b{font:500 14px var(--mono);color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* why */
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.why div{background:var(--surface);padding:22px}
+.why div.ai{background:var(--tint)}
+.why h3{font-size:18px;font-weight:700;margin-bottom:6px}
+.why p{margin:0;color:var(--muted);font-size:15.5px}
+
+/* table */
+.tablewrap{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:10px 24px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15.5px}
+th{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:left;padding:14px 0 10px;border-bottom:1px solid var(--line)}
+td{padding:14px 0;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td .d{display:block;color:var(--muted);font-size:14.5px;margin-top:2px}
+td:first-child{padding-right:20px}
+.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap;padding-left:16px}
+th.num{text-align:right}
+
+/* conditions */
+.conds{display:grid;grid-template-columns:repeat(2,1fr);gap:0 40px;margin:0;padding:0;list-style:none}
+.conds li{padding-block:14px;border-top:1px solid var(--line)}
+.conds b{display:block;font-family:var(--display);font-size:17px;margin-bottom:2px}
+.conds span{color:var(--muted);font-size:15.5px}
+
+.proofs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.pf{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.pf .v{font:500 22px/1.2 var(--mono);font-variant-numeric:tabular-nums}
+.pf .v .arrow{color:var(--accent)}
+.pf p{margin:6px 0 0;color:var(--muted);font-size:15px}
+
+.contact{background:var(--ink);color:var(--ground);border-radius:18px;padding:40px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center}
+.contact h2{font-size:clamp(24px,3.2vw,34px)}
+.contact p{color:inherit;opacity:.8;margin:12px 0 0;max-width:54ch}
+.contact .links{display:grid;gap:12px}
+.btn{display:inline-block;padding:12px 20px;border-radius:999px;font-weight:600;text-decoration:none;font-size:16px}
+.contact a.btn.primary{background:var(--accent);color:var(--accent-ink);text-align:center}
+.contact a.btn.outline{border:1px solid currentColor;color:var(--ground);text-align:center}
+.contact a.plain{color:var(--ground);opacity:.85;font-family:var(--mono);font-size:14px;text-align:center;word-break:break-all}
+.note{font-size:13px;color:var(--muted);margin-top:28px;max-width:84ch}
+
+@media (max-width:860px){
+  .plans,.why,.proofs,.contact,.conds{grid-template-columns:1fr}
+  .contact{padding:28px 22px}
+  .hero{padding-block:36px 20px}
+  .tablewrap{padding:4px 16px}
+}
+@media (prefers-reduced-motion:no-preference){ .btn{transition:filter .15s} .btn:hover{filter:brightness(1.08)} }
+
+@media print{
+  :root,:root:not([data-theme="light"]){
+    --ground:#FFFFFF; --surface:#FFFFFF; --ink:#15201E; --muted:#56655F; --line:#D9E1DD;
+    --accent:#0B6E5F; --accent-ink:#FFFFFF; --accent-soft:rgba(11,110,95,.12); --tint:#EEF4F1;
+  }
+  @page{size:A4;margin:14mm 12mm}
+  body{font-size:13px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding:0}
+  .bar nav{display:none}
+  .hero{padding-block:18px 8px;max-width:none}
+  .hero h1{font-size:30px}
+  .hero p.lead{font-size:15px}
+  section{padding-block:14px}
+  .sec-head{margin-bottom:12px}
+  .sec-head h2{font-size:22px}
+  .sec-head p{font-size:13px}
+  .plans{grid-template-columns:repeat(3,1fr);gap:10px}
+  .plan{padding:14px;gap:8px;break-inside:avoid}
+  .plan.featured{box-shadow:none}
+  .plan h3{font-size:16px}
+  .price{font-size:28px}
+  .plan ul{font-size:12px;gap:4px;padding-top:8px}
+  .for,.resale,.resale b{font-size:11.5px}
+  .why{grid-template-columns:repeat(3,1fr)}
+  .why div{padding:12px}
+  .why h3{font-size:14px}
+  .why p{font-size:12px}
+  .tablewrap{padding:2px 14px;break-inside:avoid}
+  table{font-size:12.5px}
+  td{padding:7px 0}
+  td .d{font-size:11.5px}
+  .conds{grid-template-columns:repeat(2,1fr);gap:0 24px}
+  .conds li{padding-block:7px;break-inside:avoid}
+  .conds b{font-size:13.5px}
+  .conds span{font-size:12px}
+  .proofs{grid-template-columns:repeat(3,1fr);gap:10px}
+  .pf{padding:12px}
+  .pf .v{font-size:16px}
+  .pf p{font-size:11.5px}
+  .contact{grid-template-columns:1.4fr 1fr;padding:18px;border-radius:12px;break-inside:avoid}
+  .contact h2{font-size:18px}
+  .contact p{font-size:12.5px}
+  .btn{padding:7px 12px;font-size:12.5px}
+  .contact a.plain{font-size:11px}
+  .note{font-size:10.5px;margin-top:10px}
+  .pb{break-before:page}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar">
+    <span class="name">Camilo Cuspián</span>
+    <nav aria-label="Secciones"><a href="#planes">Planes</a><a href="#puntuales">Proyectos</a><a href="#condiciones">Condiciones</a><a href="../">Portafolio</a></nav>
+  </div>
+
+  <header class="hero">
+    <p class="eyebrow">Tarifas para agencias · marca blanca</p>
+    <h1>SEO y SEO para IA para las clínicas de vuestra agencia, <em>implementado en el código</em>.</h1>
+    <p class="lead">No entrego solo informes: aplico yo mismo los cambios en la web de la clínica. Trabajo con vuestra marca, en vuestro horario de tarde y sin contacto con el cliente final.</p>
+    <div class="meta">
+      <span class="chip">Precio a agencia · por clínica</span>
+      <span class="chip">Euros · sin impuestos</span>
+      <span class="chip">Vigente desde septiembre de 2026</span>
+    </div>
+  </header>
+
+  <section id="planes" aria-labelledby="h-planes">
+    <div class="sec-head">
+      <h2 id="h-planes">Planes mensuales</h2>
+      <p>El trabajo continuo es lo que da resultados. La auditoría inicial y la implementación en código van incluidas en todos los planes.</p>
+    </div>
+    <div class="plans">
+      <article class="plan">
+        <div class="top"><h3>Esencial</h3></div>
+        <div class="price">490 €<small>/mes</small></div>
+        <p class="for">Clínica con una sede que necesita una base técnica sólida.</p>
+        <ul>
+          <li><b>Auditoría inicial</b> SEO + IA incluida</li>
+          <li>SEO técnico continuo, <b>implementado en el código</b> (hasta 6 h/mes)</li>
+          <li>SEO local y ficha de Google</li>
+          <li>2 contenidos al mes, optimizados para Google e IA</li>
+          <li>Informe mensual de Search Console con vuestra marca</li>
+        </ul>
+        <div class="resale"><span>Reventa habitual</span><b>900–1.200 €/mes</b></div>
+      </article>
+
+      <article class="plan featured">
+        <div class="top"><h3>Crecimiento SEO + IA</h3><span class="tag">Recomendado</span></div>
+        <div class="price">790 €<small>/mes</small></div>
+        <p class="for">Clínica que quiere crecer en Google y aparecer en ChatGPT y AI Overviews.</p>
+        <ul>
+          <li>Todo lo del plan Esencial</li>
+          <li>4 contenidos y 1 landing de tratamiento al mes</li>
+          <li>Datos estructurados médicos y llms.txt, mantenidos</li>
+          <li><b>Seguimiento mensual en ChatGPT, AI Overviews y Perplexity</b></li>
+          <li>Re-auditoría trimestral</li>
+          <li>Implementación en código hasta 12 h/mes</li>
+        </ul>
+        <div class="resale"><span>Reventa habitual</span><b>1.500–2.000 €/mes</b></div>
+      </article>
+
+      <article class="plan">
+        <div class="top"><h3>Integral</h3></div>
+        <div class="price">1.190 €<small>/mes</small></div>
+        <p class="for">Varias sedes o sector muy competitivo (cirugía, capilar, dental).</p>
+        <ul>
+          <li>Todo lo del plan Crecimiento</li>
+          <li>8 contenidos y 2 landings al mes</li>
+          <li>Páginas por sede y ciudad</li>
+          <li>Mejoras de conversión (formularios, CTA, velocidad)</li>
+          <li>Implementación en código hasta 20 h/mes</li>
+          <li>Llamada mensual con vuestro equipo</li>
+        </ul>
+        <div class="resale"><span>Reventa habitual</span><b>2.200–3.000 €/mes</b></div>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-why">
+    <div class="sec-head"><h2 id="h-why">Por qué este modelo os sale a cuenta</h2></div>
+    <div class="why">
+      <div><h3>Implemento, no solo recomiendo</h3><p>Soy también desarrollador web. Los cambios de la auditoría llegan a la web sin que tengáis que buscar a otro programador.</p></div>
+      <div class="ai"><h3>SEO para IA incluido</h3><p>Datos estructurados, llms.txt y contenido citable para que la clínica aparezca en AI Overviews y ChatGPT, no solo en el buscador clásico.</p></div>
+      <div><h3>Marca blanca total</h3><p>Vuestro logo en los informes y vuestra relación con el cliente. Nunca contacto con la clínica sin vuestro permiso.</p></div>
+    </div>
+  </section>
+
+  <section id="puntuales" aria-labelledby="h-punt">
+    <div class="sec-head">
+      <h2 id="h-punt">Proyectos puntuales</h2>
+      <p>Para empezar con una clínica concreta o cubrir un pico de trabajo.</p>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Servicio</th><th class="num">Precio</th></tr></thead>
+        <tbody>
+          <tr><td>Auditoría SEO + visibilidad en IA<span class="d">SEO técnico, indexación, velocidad, SEO local y presencia en AI Overviews, ChatGPT y Perplexity. PDF con vuestra marca en 5 días hábiles. Se descuenta entera si contratáis un plan mensual en los 30 días siguientes.</span></td><td class="num">390 €</td></tr>
+          <tr><td>Implementación de una auditoría en código<span class="d">Aplico las correcciones técnicas priorizadas en la web de la clínica.</span></td><td class="num">desde 590 €</td></tr>
+          <tr><td>Pack «clínica preparada para IA»<span class="d">Datos estructurados médicos (MedicalClinic, Physician, FAQ, speakable), llms.txt y FAQs con respuesta directa en las 5 páginas de tratamiento clave.</span></td><td class="num">490 €</td></tr>
+          <tr><td>Landing de tratamiento<span class="d">Página nueva optimizada para Google e IA, maquetada e implementada.</span></td><td class="num">250 €</td></tr>
+          <tr><td>Web de clínica con SEO desde el primer día<span class="d">Web rápida (Jekyll, Astro o Shopify) a partir de vuestro diseño o plantilla.</span></td><td class="num">desde 1.200 €</td></tr>
+          <tr><td>Horas sueltas<span class="d">Bolsa de 10 horas a 320 €.</span></td><td class="num">35 €/h</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="condiciones" aria-labelledby="h-cond">
+    <div class="sec-head"><h2 id="h-cond">Condiciones</h2></div>
+    <ul class="conds">
+      <li><b>Permanencia mínima de 3 meses</b><span>El SEO necesita tiempo para notarse. Después, mes a mes con 30 días de aviso.</span></li>
+      <li><b>Descuento por volumen</b><span>De 3 a 5 clínicas, 10 % en las mensualidades. Desde 6 clínicas, 15 %.</span></li>
+      <li><b>Pagos</b><span>Mensualidades por adelantado. Proyectos: 50 % al empezar y 50 % a la entrega. Transferencia en euros o Malt.</span></li>
+      <li><b>Horario</b><span>Cubro vuestra tarde laboral (hora de España). Respuesta en menos de 24 h en días hábiles.</span></li>
+      <li><b>Confidencialidad</b><span>Firmo acuerdo de confidencialidad si lo necesitáis. Los casos que enseño son siempre anónimos.</span></li>
+      <li><b>Accesos</b><span>Trabajo con los accesos que me deis (Search Console, CMS o repositorio) y los devuelvo al terminar.</span></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="h-proof">
+    <div class="sec-head">
+      <h2 id="h-proof">Resultados recientes</h2>
+      <p>Clics orgánicos al mes en Google Search Console. Clientes anónimos.</p>
+    </div>
+    <div class="proofs">
+      <div class="pf"><div class="v">1.217 <span class="arrow">→</span> 4.053</div><p>Clínica de medicina estética</p></div>
+      <div class="pf"><div class="v">89 <span class="arrow">→</span> 1.286</div><p>Cirujano plástico</p></div>
+      <div class="pf"><div class="v">74 <span class="arrow">→</span> 2.313</div><p>Web nueva de clínica estética, en 14 meses</p></div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="contact">
+      <div>
+        <h2>Empezad con una revisión gratuita</h2>
+        <p>Pasadme la web de una clínica que llevéis y en 48 h os envío los 3 cambios con más impacto en Google y en las respuestas de IA. Sin compromiso.</p>
+      </div>
+      <div class="links">
+        <a class="btn primary" href="https://wa.me/573165695773">WhatsApp +57 316 569 5773</a>
+        <a class="btn outline" href="mailto:cuspianhuertas@gmail.com">cuspianhuertas@gmail.com</a>
+        <a class="plain" href="https://camilocuspian.github.io/Portafolio/">camilocuspian.github.io/Portafolio</a>
+      </div>
+    </div>
+    <p class="note">Precios en euros, por clínica y sin impuestos. La «reventa habitual» es una referencia de lo que suele cobrar una agencia a la clínica en España por un servicio equivalente; vuestro precio final lo decidís vosotros. Tarifas vigentes desde septiembre de 2026.</p>
+  </section>
+</div>
+</body>
+</html>
